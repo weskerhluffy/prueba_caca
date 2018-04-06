@@ -18,7 +18,7 @@ public class SecuCacaConfig extends WebSecurityConfigurerAdapter {
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		http.authorizeRequests().antMatchers("/css/**", "/index", "/").permitAll();
+		http.authorizeRequests().antMatchers("/css/**", "/index", "/", "/ingresa*").permitAll();
 	}
 
 	@Autowired

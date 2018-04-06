@@ -26,3 +26,5 @@ nbdist/
 *.jar
 
 *.log
+
+*.gz
